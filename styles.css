@@ -10,10 +10,6 @@ header {
   background: linear-gradient(118.15deg, #11145f 4.43%, #61dafb 100.25%);
 }
 
-header img {
-  transform: scale(0.6);
-}
-
 nav {
   display: flex;
   justify-content: space-between;
@@ -30,4 +26,6 @@ nav {
 
 .links {
   display: flex;
+  justify-content: space-between;
+  list-style: none;
 }
