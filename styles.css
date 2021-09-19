@@ -195,10 +195,125 @@ nav {
   .tools {
     grid-template-columns: repeat(2, 1fr);
   }
+  h2 {
+    font-size: 1.2rem;
+  }
 }
 
 @media (max-width: 576px) {
   .tools {
     grid-template-columns: 1fr;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+}
+
+#contributions {
+  background: linear-gradient(117.06deg, #32965a 3.97%, #0f81a5 100%);
+  padding: 50px 10px;
+}
+
+.work {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px 10px;
+}
+
+.card {
+  background: #ffffff;
+  /* border: 3px solid #dad9d9; */
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.card-body {
+  padding: 10px 10px 20px;
+}
+
+.card-body p {
+  padding: 10px 0;
+}
+
+.card-body button {
+  padding: 0.5em 2em;
+  border: none;
+  background: #fff;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+  border: 1px solid #0f81a5;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#touch {
+  width: 80%;
+  margin: auto;
+}
+#touch h2 {
+  max-width: 500px;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+}
+
+form,
+.illustration {
+  flex: 1;
+}
+
+.field {
+  padding: 10px 0;
+}
+
+.field label {
+  display: block;
+  padding-bottom: 15px;
+}
+
+.field input,
+.field textarea {
+  width: 100%;
+  border: 1px solid #005c83;
+  padding: 7px;
+  outline-color: #005c83;
+}
+
+.field input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #005c83;
+}
+
+form button {
+  padding: 0.5em 2em;
+  border: none;
+  background: #005c83;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  cursor: pointer;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .work {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .work {
+    grid-template-columns: 1fr;
+  }
+  #contributions {
+    background: #fff;
   }
 }
