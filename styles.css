@@ -255,7 +255,9 @@ nav {
 #touch {
   width: 80%;
   margin: auto;
+  padding: 50px 0;
 }
+
 #touch h2 {
   max-width: 500px;
 }
@@ -268,6 +270,10 @@ nav {
 form,
 .illustration {
   flex: 1;
+}
+
+.illustration img {
+  width: 100%;
 }
 
 .field {
@@ -285,12 +291,18 @@ form,
   border: 1px solid #005c83;
   padding: 7px;
   outline-color: #005c83;
+  max-width: 300px;
 }
 
 .field input {
   outline: none;
   border: none;
   border-bottom: 1px solid #005c83;
+}
+
+.field textarea {
+  resize: vertical;
+  min-height: 300px;
 }
 
 form button {
@@ -306,6 +318,9 @@ form button {
 @media (max-width: 768px) {
   .work {
     grid-template-columns: repeat(2, 1fr);
+  }
+  form {
+    width: 100%;
   }
 }
 
