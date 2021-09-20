@@ -322,6 +322,13 @@ form button {
   form {
     width: 100%;
   }
+  .message {
+    flex-direction: column;
+  }
+  .illustration {
+    margin-bottom: 50px;
+    order: -1;
+  }
 }
 
 @media (max-width: 576px) {
