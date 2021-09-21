@@ -326,7 +326,7 @@ form button {
     flex-direction: column;
   }
   .illustration {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     order: -1;
   }
 }
