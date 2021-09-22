@@ -229,15 +229,6 @@ form button {
   text-transform: uppercase;
 }
 
-@media (max-width: 576px) {
-  .work {
-    grid-template-columns: 1fr;
-  }
-  #contributions {
-    background: #fff;
-  }
-}
-
 /*  */
 @media (max-width: 768px) {
   .tools {
@@ -246,6 +237,10 @@ form button {
 
   h2 {
     font-size: 1.2rem;
+  }
+
+  .work {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -328,7 +323,11 @@ form button {
   }
 
   .work {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
+  }
+
+  #contributions {
+    background: #fff;
   }
 
   form {
