@@ -167,6 +167,18 @@ nav {
   letter-spacing: 2px;
 }
 
+.card-body button:focus,
+.card-body button:hover {
+  outline-color: #005c83;
+  background: #fff;
+  color: #000;
+}
+
+.card-body button:active,
+.card-body button:visited {
+  box-shadow: none;
+}
+
 #touch {
   width: 80%;
   margin: auto;
@@ -230,6 +242,18 @@ form button {
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 2px;
+}
+
+form button:focus,
+form button:hover {
+  outline-color: #005c83;
+  background: #fff;
+  color: #000;
+}
+
+form button:active,
+form button:visited {
+  box-shadow: none;
 }
 
 /*  */
