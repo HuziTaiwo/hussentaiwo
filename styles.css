@@ -123,15 +123,6 @@ nav {
   line-height: 1.6;
 }
 
-@media (max-width: 576px) {
-  .tools {
-    grid-template-columns: 1fr;
-  }
-  h2 {
-    font-size: 1rem;
-  }
-}
-
 #contributions {
   background: linear-gradient(117.06deg, #32965a 3.97%, #0f81a5 100%);
   padding: 50px 10px;
@@ -238,22 +229,6 @@ form button {
   text-transform: uppercase;
 }
 
-@media (max-width: 768px) {
-  .work {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  form {
-    width: 100%;
-  }
-  .message {
-    flex-direction: column;
-  }
-  .illustration {
-    margin-bottom: 40px;
-    order: -1;
-  }
-}
-
 @media (max-width: 576px) {
   .work {
     grid-template-columns: 1fr;
@@ -342,5 +317,29 @@ form button {
 
   .mobile-indicator {
     display: initial;
+  }
+
+  .tools {
+    grid-template-columns: 1fr;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  .work {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  form {
+    width: 100%;
+  }
+
+  .message {
+    flex-direction: column;
+  }
+  .illustration {
+    margin-bottom: 40px;
+    order: -1;
   }
 }
