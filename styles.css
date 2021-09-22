@@ -312,6 +312,7 @@ form button {
   border-radius: 3px;
   cursor: pointer;
   color: #fff;
+  text-transform: uppercase;
 }
 
 @media (max-width: 768px) {
