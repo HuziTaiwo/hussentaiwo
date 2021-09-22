@@ -99,31 +99,6 @@ nav {
 .social-links li img:hover {
   opacity: 0.6;
 }
-
-@media (max-width: 576px) {
-  header {
-    height: 100vh;
-    position: relative;
-  }
-  .intro-content {
-    position: absolute;
-    left: 20px;
-    bottom: 0;
-    transform: translateY(-20%);
-  }
-  .intro h3 {
-    padding: 0;
-  }
-  .intro p {
-    display: none;
-  }
-  .indicator {
-    display: none;
-  }
-  .mobile-indicator {
-    display: initial;
-  }
-}
 /*  */
 
 #technologies {
@@ -300,6 +275,11 @@ form button {
 
 /*  */
 @media (max-width: 576px) {
+  header {
+    height: 100vh;
+    position: relative;
+  }
+
   .logo {
     position: absolute;
     left: 0;
@@ -314,6 +294,7 @@ form button {
   .hamburger {
     display: initial;
   }
+
   .links {
     display: block;
     position: fixed;
@@ -338,5 +319,28 @@ form button {
   .links a {
     color: #000;
     font-weight: 600;
+  }
+
+  .intro-content {
+    position: absolute;
+    left: 20px;
+    bottom: 0;
+    transform: translateY(-20%);
+  }
+
+  .intro h3 {
+    padding: 0;
+  }
+
+  .intro p {
+    display: none;
+  }
+
+  .indicator {
+    display: none;
+  }
+
+  .mobile-indicator {
+    display: initial;
   }
 }
