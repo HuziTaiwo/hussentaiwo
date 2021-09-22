@@ -99,7 +99,6 @@ nav {
 .social-links li img:hover {
   opacity: 0.6;
 }
-/*  */
 
 #technologies {
   width: 80%;
@@ -122,15 +121,6 @@ nav {
 
 .tools p {
   line-height: 1.6;
-}
-
-@media (max-width: 768px) {
-  .tools {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  h2 {
-    font-size: 1.2rem;
-  }
 }
 
 @media (max-width: 576px) {
@@ -274,6 +264,16 @@ form button {
 }
 
 /*  */
+@media (max-width: 768px) {
+  .tools {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+}
+
 @media (max-width: 576px) {
   header {
     height: 100vh;
